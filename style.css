@@ -1,3 +1,7 @@
+.container-fluid{
+    background-color: hwb(34 18% 0% / 0.167);;
+
+}
 body{
     background-color: hsla(266, 8%, 65%, 0.414);
     margin-left: 20px;
@@ -6,7 +10,7 @@ h1{
     font-family: "Covered By Your Grace", serif;
     color: #949398FF;
     background-color: hsla(180, 3%, 86%, 0.717);
-    font-size: 7em;
+    font-size: em;
     font-weight: 400;
     font-style: normal;
     
@@ -38,6 +42,7 @@ p{
     width: 600px;
     float: left;
     margin-top: 30px;
+    margin-right: 30px;
 }
 .right{
     width: 600px;
