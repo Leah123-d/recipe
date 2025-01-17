@@ -2,29 +2,30 @@ body{
     background-color: hsla(266, 8%, 65%, 0.414);
 }
 h1{
-    font: 50px Arial, sans-serif;
+    font-family: "Covered By Your Grace", serif;
     color: #949398FF;
     background-color: hsla(180, 3%, 86%, 0.717);
+    font-size: 10em;
+    font-weight: 400;
+    font-style: normal;
     
 
 }
 h2{
-    font: 25px Arial, sans-serif;
+    font: 2em Arial, sans-serif;
 
 }
 h3{
 
-    font: 20px Arial, sans-serif;
+    font: 1empx Arial, sans-serif;
 }
 h4{
-
 }
+  
 p{
     font: 25px Arial, sans-serif;
-    color: #949398FF;
+    color: hsla(251, 88%, 45%, 0.941);
     background-color: hsla(180, 3%, 86%, 0.717);
-    padding: ;
-    
 }
 
 
