@@ -12,21 +12,26 @@ h1{
 
 }
 h2{
-    font: 2em Arial, sans-serif;
+    font: 2em 'Times New Roman', serif;
 
 }
 h3{
 
-    font: 1empx Arial, sans-serif;
+    font: 1em 'Times New Roman', serif;
 }
 h4{
 }
+.description{
+    width: 600px;
+}
   
 p{
-    font: 25px Arial, sans-serif;
+    font: 1.5em 'Times New Roman', serif;
     color: hsla(251, 88%, 45%, 0.941);
+    text-align: left;
     background-color: hsla(180, 3%, 86%, 0.717);
 }
+
 
 
 /*   background-color: #F4DF4EFF;
