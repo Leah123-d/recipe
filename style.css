@@ -1,3 +1,32 @@
 body{
-    background-color: hsla(264, 31%, 84%, 0.843);
+    background-color: hsla(266, 8%, 65%, 0.414);
 }
+h1{
+    font: 50px Arial, sans-serif;
+    color: #949398FF;
+    background-color: hsla(180, 3%, 86%, 0.717);
+    
+
+}
+h2{
+    font: 25px Arial, sans-serif;
+
+}
+h3{
+
+    font: 20px Arial, sans-serif;
+}
+h4{
+
+}
+p{
+    font: 25px Arial, sans-serif;
+    color: #949398FF;
+    background-color: hsla(180, 3%, 86%, 0.717);
+    padding: ;
+    
+}
+
+
+/*   background-color: #F4DF4EFF;
+*/
