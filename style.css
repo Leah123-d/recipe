@@ -12,15 +12,17 @@ h1{
 
 }
 h2{
-    font: 2em 'Times New Roman', serif;
+    font: 5em "Covered By Your Grace", serif;
 
 }
 h3{
 
-    font: 1em 'Times New Roman', serif;
+    font: 3em "Covered By Your Grace", serif;
 }
 h4{
+    font: 2em "Covered By Your Grace", serif;
 }
+
 .description{
     width: 600px;
 }
@@ -34,6 +36,12 @@ p{
 .left{
     width: 600px;
     float: left;
+    margin-top: 30px;
+}
+.right{
+    width: 600px;
+    float: left;
+    margin-left: 30px;
 }
 
 
