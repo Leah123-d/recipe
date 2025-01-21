@@ -50,6 +50,10 @@ p{
     margin-left: 30px;
 }
 
+.checked{
+    text-decoration: line-through;
+}
+
 
 
 /*   background-color: #F4DF4EFF;
