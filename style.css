@@ -54,7 +54,26 @@ p{
     text-decoration: line-through;
 }
 
+@media (max-width: 768px) {
 
+    .description{
+        width: 300px;
+        font-size: 1.3em;
+    }
+    #image2{
+        width: 350px;
+
+    }
+    #myDiv2{
+        margin-right: 500px;
+    }
+
+}
+
+
+
+/*   media query notes, place the photo and blurb in a media query 
+*/
 
 /*   background-color: #F4DF4EFF;
 */
