@@ -1,3 +1,18 @@
+
+
+
+
+/*
+To do List: 
+1/ work on figuring out how to convert each list item to checkbox
+maybe if we get one working then we can apply to the rest 
+2/use DOM manipulation to cross out words of text box 
+3/implement additional DOM manipulation: 2. convert ingredients to metric 3. update nav bar to move simliar recipes to nav bar drop down
+4/prepare for presentation 
+
+
+
+
 const myDiv = document.getElementById("myDiv");
 const myListItem1 = document.getElementById("listItem1")
 
@@ -63,7 +78,7 @@ myListItem1.appendChild(label);
 
 //what do we know so far?
 //would I need to modify the text content of my list item to have the box in front of the text? 
-//I will need to understand what each item is doing to modify it too. 
+//I will need to understand what each item is doing to modify it too. */
 
 
 

@@ -54,6 +54,10 @@ p{
     text-decoration: line-through;
 }
 
+#myDiv{
+    padding-left: 20px;
+}
+
 @media (max-width: 768px) {
 
     .description{
@@ -69,6 +73,8 @@ p{
     }
 
 }
+
+
 
 
 
