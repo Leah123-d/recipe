@@ -1,13 +1,21 @@
-//let's add an event listener on the class for nav bar to add links 
-
-const nav = document.getElementById("navbarDropdown");
-
 //console.log(navItemDropdown);
 
 function myFunction(){
-    nav.classList.toggle("show");
+    document.getElementById("myDropdown").classList.toggle("show");
 }
 
+/*window.onclick = function(event){
+    if(!event.target.matches('.nav-link dropdown-toggle')){
+        const dropdowns = document.getElementsByClassName("dropdown-content");
+        let i;
+        for(let i = 0; i < dropdowns.length; i++){
+            const openDropdown = dropdowns[i];
+            if(openDropdown.classList.contains('show')){
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
 
 
 /*
