@@ -30,20 +30,57 @@ checkbox.addEventListener("change", function(){
 });*/
 
 
-const checkbox = document.getElementById("listitem1");
 
-const textToCross = document.getElementById("item1");
+//console.log(checkbox);
+/*const item = document.querySelectorAll('#ingredientlist1 [type=checkbox]');
+console.log(item);
 
-checkbox.addEventListener("change", function(){
-    if(this.checked){
-        textToCross.style.textDecoration = "line-through";
+item.addEventListener("change", function(){
+    
+    for(let i = 0; i < item.length; i++){
+    if(item.checked){
+        item.style.textDecoration = "line-through";
     }
     else{
-        textToCross.style.textDecoration = "none";
+        item.style.textDecoration = "none";
     }
-});
+}
+});*/
 
 //if we were to apply this to each item I think we can loop through them. Let's try that. 
+//query selector for checkboxes, iterate through that 
+//how would I write this out in plain english? 
+
+//for any item with class = item, if it is check apply line through decoration
+//I need to select the items with the check box 
+//I need the if statement to check each class item to see if they are checked 
+
+//will add an event listener to the button to display metric list
+
+const metricBtn = document.getElementById("metricBtn");
+const divMetric = document.getElementById("divMetric");
+divMetric.style.display="none";
+
+metricBtn.addEventListener("click", function(){
+    if(divMetric.style.display === "none"){
+        divMetric.style.display = "block";
+    }
+    else{
+        divMetric.style.display = "none";
+        
+    }
+
+});
+
+/*const hide = document.getElementById("hide");
+
+hide.addEventListener("click", function(event){
+    document.getElementById("divMetric").style.display = "none";
+
+
+
+
+})*/
 
 
 
