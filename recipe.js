@@ -16,48 +16,34 @@ function myFunction(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-if(!document.getElementById("chkcondition").checked){
-    alert("testing");
-    return;
-}
+/*const checkbox = document.getElementById("listitem1");
 
-/*window.onclick = function(event){
-    if(!event.target.matches('.nav-link dropdown-toggle')){
-        const dropdowns = document.getElementsByClassName("dropdown-content");
-        let i;
-        for(let i = 0; i < dropdowns.length; i++){
-            const openDropdown = dropdowns[i];
-            if(openDropdown.classList.contains('show')){
-                openDropdown.classList.remove('show');
-            }
-        }
+const textToCross = document.getElementById("item1");
+
+checkbox.addEventListener("change", function(){
+    if(this.checked){
+        textToCross.style.textDecoration = "line-through";
     }
-}
-
-
-/*
-
-
-
-
-
-/*function ingredients(){
-    const ingredientList = document.getElementsByTagName("ul");
-    for(const ul of ingredientList){
-        ul.classList.add("checked");
+    else{
+        textToCross.style.textDecoration = "none";
     }
+});*/
 
-    return ingredientList;
 
-}
-    ingredients();*/
+const checkbox = document.getElementById("listitem1");
 
-//I want to adjust this so it is applying the checkbox to the ingredient list. 
-//Can I adjust the code to loop through each child element and apply the checkbox? 
+const textToCross = document.getElementById("item1");
 
-//what do we know so far?
-//would I need to modify the text content of my list item to have the box in front of the text? 
-//I will need to understand what each item is doing to modify it too. */
+checkbox.addEventListener("change", function(){
+    if(this.checked){
+        textToCross.style.textDecoration = "line-through";
+    }
+    else{
+        textToCross.style.textDecoration = "none";
+    }
+});
+
+//if we were to apply this to each item I think we can loop through them. Let's try that. 
 
 
 

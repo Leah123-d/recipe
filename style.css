@@ -54,8 +54,8 @@ p{
     text-decoration: line-through;
 }
 
-#myDiv{
-    padding-left: 20px;
+#myDiv2{
+    padding-left: 50px;
 }
 
 #navbarDropdown{
@@ -75,7 +75,6 @@ p{
     min-width: 160px;
 
 }
-
 
 .show{
     display: block;
