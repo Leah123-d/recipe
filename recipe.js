@@ -16,6 +16,11 @@ function myFunction(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+if(!document.getElementById("chkcondition").checked){
+    alert("testing");
+    return;
+}
+
 /*window.onclick = function(event){
     if(!event.target.matches('.nav-link dropdown-toggle')){
         const dropdowns = document.getElementsByClassName("dropdown-content");
