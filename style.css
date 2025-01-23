@@ -58,6 +58,28 @@ p{
     padding-left: 20px;
 }
 
+.dropdown-menu{
+    background-color: #F4DF4EFF;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.collapse navbar-collapse{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 160px;
+
+}
+
+.show{
+    display: block;
+}
+
 @media (max-width: 768px) {
 
     .description{
