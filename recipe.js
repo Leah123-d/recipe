@@ -59,14 +59,24 @@ item.addEventListener("change", function(){
 
 const metricBtn = document.getElementById("metricBtn");
 const divMetric = document.getElementById("divMetric");
+const metric2 = document.getElementById("metric2");
+metric2.style.display="none"
 divMetric.style.display="none";
 
 metricBtn.addEventListener("click", function(){
     if(divMetric.style.display === "none"){
         divMetric.style.display = "block";
+        metric2.style.display = "block";
+        document.getElementById("ingredientlist1").style.display = "none";
+        document.getElementById("ingredientlist2").style.display = "none";
+        
     }
     else{
         divMetric.style.display = "none";
+        metric2.style.display = "none";
+        document.getElementById("ingredientlist1").style.display = "block";
+        document.getElementById("ingredientlist2").style.display = "block";
+
         
     }
 
