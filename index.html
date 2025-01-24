@@ -1,116 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace">
-    <link rel="stylesheet" href="style.css">
-    <title>Mango & Sticky Rice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace">
+  <link rel="stylesheet" href="style.css">
+  <title>Mango & Sticky Rice</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Recipe Page Nav Bar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="dropdown" class="nav-item dropdown">
-                  <a onclick="myFunction()" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More Recipes!
-                  </a>
-                  <div aria-labelledby="navbarDropdown">
-                    <div id="myDropdown" class="dropdown-content">
-                        <a class="dropdown-item" href="https://hot-thai-kitchen.com/papaya-salad-v3/" target="_blank">Papaya Salad ส้มตำไทย (som tum)</a>
-                        <a class="dropdown-item" href="https://thewoksoflife.com/pad-see-ew/" target="_blank">Pad See Ew</a>
-                        <a class="dropdown-item"  href="https://jessicainthekitchen.com/vegan-thai-red-curry-with-tofu/" target="_blank">Thai Red Curry</a>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Recipe Page Nav Bar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+        <li class="dropdown" class="nav-item dropdown">
+          <a onclick="myFunction()" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More Recipes!
+          </a>
+          <div aria-labelledby="navbarDropdown">
+            <div id="myDropdown" class="dropdown-content">
+                <a class="dropdown-item" href="https://hot-thai-kitchen.com/papaya-salad-v3/" target="_blank">Papaya Salad ส้มตำไทย (som tum)</a>
+                <a class="dropdown-item" href="https://thewoksoflife.com/pad-see-ew/" target="_blank">Pad See Ew</a>
+                <a class="dropdown-item"  href="https://jessicainthekitchen.com/vegan-thai-red-curry-with-tofu/" target="_blank">Thai Red Curry</a>
             </div>
-          </nav>
+          </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row" class="top col-xs-12">
+      <img id="image1" src="/images/mangoandsticyrice.jpeg" alt="a ripe peeled mango framed on the right by coloful mounds of sticky on the left sits a fork all are sitting inside a black bowl" width= "200">
     </div>
-    <div class="container">
-        <div class="row" class="top col-xs-12">
-            <img id="image1" src="/images/mangoandsticyrice.jpeg" alt="a ripe peeled mango framed on the right by coloful mounds of sticky on the left sits a fork all are sitting inside a black bowl" width= "200">
-        </div>
-        <div class="row" class="top col-xs-12">
-            <h1>Mango & Sticky Rice</h1> <br>
-        </div>  
-        <div class="row" class="top col-xs-12">
-            <p class="description"> Mango and sticky rice is my favorite recipe because my family 
-            prepared it for me as a treat on my birthdays!
-            You will love this recipe if you enjoy the combination of 
-            sweet and savory flavors.
-            </p> 
-            <br><br>
-        </div>
-        <div class="row" class="left col-xs-12">
-                <img id="image2" src="/images/ingredients.jpg" alt="the ingredients rice, 5 mangos coconut milk salt mung beans and salt all in bowls sitting on top of a whie marble table" width= "500">
-    
-            </div>   
-                    <div id="myDiv2">
-                        <h2>Ingredients</h2>
-                        <h3>Coconut Sticky Rice</h3>
-                        <button id="metricBtn">convert to metric</button>
-                        <div id="divMetric"> <!-- will have an alterative DIV with information, will have button so it can display metric measurements-->
-                            <ul>
-                                <li>250 grams white glutinous rice</li>
-                                <li>160 mL coconut milk</li>
-                                <li>1.25 mL table salt</li>
-                                <li>125 grams sugar</li>
-                                <li>4 lbs ripe mangos</li>
-    
-                            </ul>
-                        </div>
-                    <ul id="ingredientlist1">
-                            <input type="checkbox" id="listitem1">
-                            <label for="listitem1">1 cup white glutinous rice </label><br>
-                            <input type="checkbox" id="listitem2">
-                            <label for="listitem2">2/3 cup coconut milk</label><br>                           
-                            <input type="checkbox" id="listitem3">
-                            <label for="listitem3">1/2 teaspoon table salt</label><br>
-                            <input type="checkbox" id="listitem4">
-                            <label for="lisitem4">1/2 cup sugar</label><br>
-                            <input type="checkbox" id="listitem5">
-                            <type for="listitem5">5 ripe mangos</label><br>
-                        </ul>
-                        <h3>Salted Coconut Sauce</h3>
-                        <ul id="ingredientlist2">
-                            <input type="checkbox" id="listitem6">
-                            <label for="lisitem6">1/2 cup coconut milk</label><br>
-                            <input type="checkbox" id="listitem7">
-                            <label for="listitem7">1/4 teaspoon table salt</label><br>
-                            <input type="checkbox" id="listitem8">
-                            <label for="listitem8">1 teaspoon rice flour</label><br>
-                            <input type="checkbox" id="listitem9">
-                            <label for="listitem9">1 Tablespoon water</label><br>
-                        </ul>
-                        <div id="metric2">
-                        <ul id="list2Metric">
-                            <li>4 oz coconut milk</li> 
-                            <li>1.25 mL table salt</li>
-                            <li>5 mL rice flour</li>
-                            <li>15 mL water</li>
-                        
-                        </div>
+    <div class="row" class="top col-xs-12">
+      <h1>Mango & Sticky Rice</h1> <br>
+    </div>  
+    <div class="row" class="top col-xs-12">
+      <p class="description"> Mango and sticky rice is my favorite recipe because my family 
+                              prepared it for me as a treat on my birthdays!
+                              You will love this recipe if you enjoy the combination of 
+                              sweet and savory flavors.
+      </p> 
+      <br><br>
+  </div>
+  <div>
+  <div class="row" class="left col-xs-12"> <!--check indentation, indent by 2 space. This is updated sepearte in two column will be side by side -->
+        <img id="image2" src="/images/ingredients.jpg" alt="the ingredients rice, 5 mangos coconut milk salt mung beans and salt all in bowls sitting on top of a whie marble table" width= "500">
 
-                        </ul>
-                        <br>
-                    </div>
-
-                </div>
-            </div>
+  </div>   
+          <!--new div with ingredients-->
+  <div id="myDiv2"> 
+    <h2>Ingredients</h2>
+    <h3>Coconut Sticky Rice</h3>
+    <button id="metricBtn">convert to metric</button>
+    <div id="divMetric"> <!-- will have an alterative DIV with information, will have button so it can display metric measurements-->
+      <ul>
+          <li>250 grams white glutinous rice</li>
+          <li>160 mL coconut milk</li>
+          <li>1.25 mL table salt</li>
+          <li>125 grams sugar</li>
+          <li>4 lbs ripe mangos</li>
+      </ul>
+    </div>
+    <ul id="ingredientlist1">
+            <input type="checkbox" id="listitem1">
+            <label for="listitem1">1 cup white glutinous rice </label><br>
+            <input type="checkbox" id="listitem2">
+            <label for="listitem2">2/3 cup coconut milk</label><br>                           
+            <input type="checkbox" id="listitem3">
+            <label for="listitem3">1/2 teaspoon table salt</label><br>
+            <input type="checkbox" id="listitem4">
+            <label for="lisitem4">1/2 cup sugar</label><br>
+            <input type="checkbox" id="listitem5">
+            <type for="listitem5">5 ripe mangos</label><br>
+        </ul>
+        <h3>Salted Coconut Sauce</h3>
+        <ul id="ingredientlist2">
+            <input type="checkbox" id="listitem6">
+            <label for="lisitem6">1/2 cup coconut milk</label><br>
+            <input type="checkbox" id="listitem7">
+            <label for="listitem7">1/4 teaspoon table salt</label><br>
+            <input type="checkbox" id="listitem8">
+            <label for="listitem8">1 teaspoon rice flour</label><br>
+            <input type="checkbox" id="listitem9">
+            <label for="listitem9">1 Tablespoon water</label><br>
+        </ul>
+        <div id="metric2">
+        <ul id="list2Metric">
+            <li>4 oz coconut milk</li> 
+            <li>1.25 mL table salt</li>
+            <li>5 mL rice flour</li>
+            <li>15 mL water</li>
+        </ul>
+        
+        </div>
+  <br>
+  </div>
+</div>
+  </div>
+  </div>
         <div class="row" class="right col-xs-12">    
             <div id="myDiv3">
                 <h2>Instructions</h2>
