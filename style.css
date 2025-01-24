@@ -1,4 +1,7 @@
 
+.container{
+    margin: 5px;
+}
 .container-fluid{
     background-color: hwb(34 18% 0% / 0.167);;
 
@@ -55,9 +58,7 @@ p{
     text-decoration: line-through;
 }
 
-#myDiv2{
-    padding-left: 30px;
-}
+
 
 #navbarDropdown{
     border: none;
@@ -81,8 +82,13 @@ p{
     display: block;
 }
 
-#myDiv3{
-    margin-left: 150px;
+#myDiv0{
+    display: inline-block;
+}
+
+#myDiv2{
+    margin-left: 700px;
+    display: inline-block;
 }
 
 
