@@ -12,13 +12,19 @@ maybe if we get one working then we can apply to the rest
 4/prepare for presentation 
 additional DOM ideas, jump to recipe, jump to video? */
 
-function myFunction(){
+//created text content selector query for Ul 
+//append new item 
+//query selected ul items list items (lis) 
+//for loop through the length created an element input 
+//label variable, for every label there is an id
+//insert a check in front of of the ul then check next sibling 
+
+/*function myFunction(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-/*const checkbox = document.getElementById("listitem1");
-
-const textToCross = document.getElementById("item1");
+const checkbox = document.getElementById("listitem1");
+const textToCross = document.getElementById("item");
 
 checkbox.addEventListener("change", function(){
     if(this.checked){
@@ -32,20 +38,29 @@ checkbox.addEventListener("change", function(){
 
 
 //console.log(checkbox);
-/*const item = document.querySelectorAll('#ingredientlist1 [type=checkbox]');
-console.log(item);
+const item = document.querySelectorAll('#ingredientlist1 input[type="checkbox"], #ingredientlist2 input[type="checkbox"]');
 
-item.addEventListener("change", function(){
-    
-    for(let i = 0; i < item.length; i++){
-    if(item.checked){
-        item.style.textDecoration = "line-through";
-    }
-    else{
-        item.style.textDecoration = "none";
-    }
+//console.log(item);
+
+for(let i = 0; i < item.length; i++){
+    //console.log(item[i]);
+    const label = item[i].nextElementSibling;
+
+    item[i].addEventListener("change", function(event){
+        if(item[i].checked){
+            label.style.textDecoration = "line-through";
+
+        }
+        else{
+            label.style.textDecoration = "none";
+        }
+    });
 }
-});*/
+
+//selected checkbox
+//next element next sibling 
+
+
 
 //if we were to apply this to each item I think we can loop through them. Let's try that. 
 //query selector for checkboxes, iterate through that 
@@ -57,7 +72,7 @@ item.addEventListener("change", function(){
 
 //will add an event listener to the button to display metric list
 
-const metricBtn = document.getElementById("metricBtn");
+/*const metricBtn = document.getElementById("metricBtn");
 const divMetric = document.getElementById("divMetric");
 const metric2 = document.getElementById("metric2");
 metric2.style.display="none"
