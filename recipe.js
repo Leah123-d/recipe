@@ -23,7 +23,6 @@ for(let i = 0; i < item.length; i++){
 }
 
 
-
 //to display metric list
 const metricBtn = document.getElementById("metricBtn");
 const divMetric = document.getElementById("divMetric");

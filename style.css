@@ -1,11 +1,3 @@
-
-.container{
-    margin: 5px;
-}
-.container-fluid{
-    background-color: #fceaff;
-
-}
 body{
     background-color: #9e86b8;
     margin-left: 20px;
@@ -21,7 +13,7 @@ h1{
     font-size: 5em;
     font-weight: 400;
     font-style: normal;
-    
+
 
 }
 h2{
@@ -34,6 +26,13 @@ h3{
 }
 h4{
     font: 2em "Covered By Your Grace", serif;
+}
+.container{
+    margin: 5px;
+}
+.container-fluid{
+    background-color: #fceaff;
+
 }
 
 .description{
@@ -85,23 +84,42 @@ h4{
     display: inline-block;
 }
 
-#myDiv2{
-    margin-left: 700px;
-    display: inline-block;
-}
-
 #divMetric{
     background-color: #ffc149;
 }
+#metric2{
+    background-color: #ffc149;
 
-@media (max-width: 768px) {
+}
 
+.container1 .box {
+    width:540px;
+    margin:50px;
+    display:table;
+}
+.container1 .box .box-row {
+    display:table-row;
+}
+.container1 .box .box-cell{
+    display: table-cell;
+    width:25%;
+    padding:10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #image1{
+        width: 100px;
+    }
+    h1{
+        font-size: 1em;
+    }
     .description{
-        width: 300px;
-        font-size: 1.3em;
+        width: 150px;
+        font-size: .5em;
     }
     #image2{
-        width: 350px;
+        width: 150px;
 
     }
     #myDiv3{
@@ -109,13 +127,3 @@ h4{
     }
 
 }
-
-
-
-
-
-/*   media query notes, place the photo and blurb in a media query 
-*/
-
-/*   background-color: #F4DF4EFF;
-*/
