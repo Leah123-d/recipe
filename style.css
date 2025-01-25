@@ -1,19 +1,19 @@
-.container-fluid{
-    background-color: hwb(34 18% 0% / 0.167);;
-
-}
 body{
-    background-color: hsla(266, 8%, 65%, 0.414);
+    background-color: #9e86b8;
     margin-left: 20px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 0%, 5%, 0.941);
+    text-align: left;
 }
 h1{
     font-family: "Covered By Your Grace", serif;
-    color: #949398FF;
-    background-color: hsla(180, 3%, 86%, 0.717);
-    font-size: em;
+    color: rgb(7, 7, 7);
+    font-size: 5em;
     font-weight: 400;
     font-style: normal;
-    
+
 
 }
 h2{
@@ -27,17 +27,19 @@ h3{
 h4{
     font: 2em "Covered By Your Grace", serif;
 }
+.container{
+    margin: 5px;
+}
+.container-fluid{
+    background-color: #fceaff;
+
+}
 
 .description{
     width: 600px;
 }
   
-p{
-    font: 1.5em 'Times New Roman', serif;
-    color: hsla(251, 88%, 45%, 0.941);
-    text-align: left;
-    background-color: hsla(180, 3%, 86%, 0.717);
-}
+
 .left{
     width: 600px;
     float: left;
@@ -50,7 +52,78 @@ p{
     margin-left: 30px;
 }
 
+.checked{
+    text-decoration: line-through;
+}
 
 
-/*   background-color: #F4DF4EFF;
-*/
+
+#navbarDropdown{
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+     position: relative;
+     display: inline-block;
+}
+.dropdown-content{
+    background-color: #ffc149;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+
+}
+
+.show{
+    display: block;
+}
+
+#myDiv0{
+    display: inline-block;
+}
+
+#divMetric{
+    background-color: #ffc149;
+}
+#metric2{
+    background-color: #ffc149;
+
+}
+
+.container1 .box {
+    width:540px;
+    margin:50px;
+    display:table;
+}
+.container1 .box .box-row {
+    display:table-row;
+}
+.container1 .box .box-cell{
+    display: table-cell;
+    width:25%;
+    padding:10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #image1{
+        width: 100px;
+    }
+    h1{
+        font-size: 1em;
+    }
+    .description{
+        width: 150px;
+        font-size: .5em;
+    }
+    #image2{
+        width: 150px;
+
+    }
+    #myDiv3{
+        margin-right: 500px;
+    }
+
+}
